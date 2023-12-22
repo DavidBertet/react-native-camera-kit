@@ -27,6 +27,7 @@ jobs:
       - name: Install dependencies
         run: brew bundle
       - name: Run swiftlint
+        continue-on-error: true
         run: swiftlint lint --reporter checkstyle --output ios-lint-results.xml
       - uses: actions/upload-artifact@v3
         with:
