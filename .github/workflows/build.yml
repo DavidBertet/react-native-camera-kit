@@ -1,4 +1,6 @@
 name: Build
+run-name: ⚙️ Build examples on ${{ github.event_name == 'pull_request' && 'PR' || '🌱' }} ${{ github.event_name == 'pull_request' && github.event.number || github.ref_name }}
+
 on:
   pull_request:
     types: [opened, reopened]
