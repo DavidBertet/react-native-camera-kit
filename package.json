@@ -34,8 +34,6 @@
     "@types/react": "^16.9.19",
     "@types/react-native": "0.62.13",
     "babel-jest": "22.4.1",
-    "danger": "^11.3.1",
-    "danger-plugin-lint-report": "^1.8.1",
     "eslint": "^7.11.0",
     "eslint-plugin-import": "^2.22.1",
     "jest": "^26.0.1",
